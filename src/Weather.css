@@ -37,8 +37,6 @@
   color: rgb(33, 33, 33);
   font-size: 64px;
   line-height: 64px;
-  position: relative;
-  top: -10px;
 }
 
 .Weather .unit {
@@ -47,5 +45,9 @@
   color: rgb(33, 33, 33);
   line-height: 1;
   position: relative;
-  top: -44px;
+  top: -36px;
+}
+
+.float-left {
+  float: left;
 }
