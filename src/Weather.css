@@ -25,9 +25,11 @@
   list-style: none;
 }
 
-.Weather img {
-  position: relative;
-  top: -16px;
+.Weather canvas {
+  height: 64px;
+  width: 64px;
+  margin-right: 10px;
+  display: inline-block;
 }
 
 .Weather .temperature {
@@ -35,6 +37,8 @@
   color: rgb(33, 33, 33);
   font-size: 64px;
   line-height: 64px;
+  position: relative;
+  top: -10px;
 }
 
 .Weather .unit {
@@ -43,5 +47,5 @@
   color: rgb(33, 33, 33);
   line-height: 1;
   position: relative;
-  top: -34px;
+  top: -44px;
 }
