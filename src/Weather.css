@@ -25,7 +25,7 @@
   list-style: none;
 }
 
-.Weather canvas {
+.Weather icon {
   height: 64px;
   width: 64px;
   margin-right: 10px;
@@ -37,6 +37,7 @@
   color: rgb(33, 33, 33);
   font-size: 64px;
   line-height: 64px;
+  margin-left: 10px;
 }
 
 .Weather .unit {
@@ -45,7 +46,7 @@
   color: rgb(33, 33, 33);
   line-height: 1;
   position: relative;
-  top: -36px;
+  top: -34px;
 }
 
 .float-left {
