@@ -50,3 +50,7 @@
 .float-left {
   float: left;
 }
+
+.WeatherInfo {
+  margin-bottom: 10px;
+}
